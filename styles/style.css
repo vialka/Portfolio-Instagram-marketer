@@ -7,7 +7,6 @@
   --button-color: rgb(218, 178, 2);
 }
 
-/* CSS */
 .button-52 {
   font-size: 16px;
   font-weight: 200;
@@ -70,6 +69,21 @@ h1 {
 h2,
 h3 {
   font-family: Monsterat;
+}
+
+.all-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  padding: 10px 10px;
+  color: black;
+  font-size: 35px !important;
+}
+
+.icon:hover {
+  color: rgb(80, 167, 194);
 }
 
 .photo-me {
