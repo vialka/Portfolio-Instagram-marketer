@@ -1,3 +1,40 @@
+:root {
+  --top-background: linear-gradient(
+    -225deg,
+    rgb(183, 248, 219) 0%,
+    rgb(80, 167, 194) 100%
+  );
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+p {
+  padding: 5px 5px 10px 10px;
+}
+h3 {
+  color: rgb(73, 73, 73);
+}
 h1 {
   font-family: "Combo", cursive;
+  font-weight: bold;
+}
+h2,
+h3 {
+  font-family: Monsterat;
+}
+
+.photo-me {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.top-style {
+  background: var(--top-background);
+  margin: auto 100px;
 }
