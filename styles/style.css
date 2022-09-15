@@ -86,10 +86,6 @@ h3 {
   color: rgb(80, 167, 194);
 }
 
-a:visited {
-  color: red;
-}
-
 .photo-me {
   display: block;
   margin: 0 auto;
