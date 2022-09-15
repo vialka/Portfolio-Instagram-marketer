@@ -4,8 +4,51 @@
     rgb(183, 248, 219) 0%,
     rgb(80, 167, 194) 100%
   );
+  --button-color: rgb(218, 178, 2);
 }
 
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+button {
+  background: var(--button-color);
+  border-radius: 20%;
+}
 h1,
 h2,
 h3,
@@ -45,6 +88,18 @@ h3 {
 .newtext {
   text-align: center;
 }
+
+.options-of-work {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.options-of-work button {
+  margin: 20px 15px;
+  padding: 20px;
+}
+
 @media (max-width: 600px) {
   .photo-me {
     width: 50%;
@@ -52,5 +107,9 @@ h3 {
 
   .top-style {
     margin: 0 auto;
+  }
+  .options-of-work button {
+    display: block;
+    margin: 10px auto;
   }
 }
