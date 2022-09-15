@@ -38,3 +38,7 @@ h3 {
   background: var(--top-background);
   margin: auto 100px;
 }
+
+.newtext {
+  text-align: center;
+}
