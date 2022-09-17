@@ -104,15 +104,9 @@ ul {
 
   height: auto;
 }
-
-.photo-projects {
-  padding-left: 150px;
+.project-photo {
+  margin-left: 70px;
 }
-
-.photo-projects-logo {
-  padding-right: 150px;
-}
-
 .top-style {
   background: var(--top-background);
   margin: auto 100px;
