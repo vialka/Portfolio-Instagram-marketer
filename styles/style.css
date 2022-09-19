@@ -100,8 +100,11 @@ ul {
   margin: 0 auto;
   border-radius: 50%;
   width: 25%;
-
   height: auto;
+}
+.photo-me-about {
+  width: 75%;
+  border-radius: 15%;
 }
 .project-photo {
   margin-left: 100px;
@@ -130,20 +133,28 @@ ul {
   .photo-me {
     width: 50%;
   }
-
   .project-photo {
     display: block;
     margin: 0 auto;
   }
 
+  .photo-me-about {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
   .top-style {
     margin: 0 auto;
   }
+
+  .olena {
+    padding-top: 5px !important;
+  }
+
   .options-of-work button {
     display: block;
     margin: 10px auto;
   }
-
   .navbar {
     margin-top: 35px;
   }
@@ -167,4 +178,12 @@ ul {
 .navbar {
   position: sticky;
   top: 1px;
+}
+
+.top {
+  padding-top: 50px !important;
+}
+
+.olena {
+  padding: 50px;
 }
