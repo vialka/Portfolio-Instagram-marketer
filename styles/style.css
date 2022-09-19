@@ -144,6 +144,10 @@ ul {
     display: block;
     margin: 10px auto;
   }
+
+  .navbar {
+    margin-top: 35px;
+  }
 }
 
 .button-center {
@@ -159,4 +163,9 @@ ul {
 
 .text-not-centered {
   text-align: left;
+}
+
+.navbar {
+  position: sticky;
+  top: 1px;
 }
