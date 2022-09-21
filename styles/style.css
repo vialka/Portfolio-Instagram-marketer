@@ -44,11 +44,6 @@ a:hover {
   text-decoration: none;
 }
 
-@media (min-width: 768px) {
-  .button-52 {
-    padding: 13px 50px 13px;
-  }
-}
 button {
   border-radius: 15%;
   margin-top: -70px;
@@ -129,7 +124,52 @@ ul {
   padding: 20px;
 }
 
-@media (max-width: 600px) {
+.button-center {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.home-button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.about-press {
+  text-decoration: none;
+  color: black;
+}
+
+.text-not-centered {
+  text-align: left;
+}
+
+.navbar {
+  position: sticky;
+  top: 1px;
+}
+
+.top {
+  padding-top: 50px !important;
+}
+
+.olena {
+  padding: 50px;
+}
+
+.responsibel {
+  padding: 30px 50px 0px 50px;
+}
+
+.text-same {
+  font-family: "Combo", cursive;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
   .photo-me {
     width: 50%;
   }
@@ -158,32 +198,16 @@ ul {
   .navbar {
     margin-top: 35px;
   }
-}
 
-.button-center {
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-}
+  .text-same {
+    font-family: "Combo", cursive;
+    font-size: 20px;
+  }
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
 
-.about-press {
-  text-decoration: none;
-  color: black;
-}
-
-.text-not-centered {
-  text-align: left;
-}
-
-.navbar {
-  position: sticky;
-  top: 1px;
-}
-
-.top {
-  padding-top: 50px !important;
-}
-
-.olena {
-  padding: 50px;
+  .second button {
+    margin: 10px 10px;
+  }
 }
