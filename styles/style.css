@@ -169,13 +169,21 @@ ul {
   font-size: 30px;
 }
 
+.logo-laso {
+  display: block;
+  margin: 0 auto;
+}
+
+.photo-laso {
+  margin: 10px 0px 10px 0px !important;
+}
 @media (max-width: 768px) {
   .photo-me {
     width: 50%;
   }
   .project-photo {
-    display: block;
-    margin: 0 auto;
+    display: block !important;
+    margin: 0 auto !important;
   }
 
   .photo-me-about {
