@@ -177,6 +177,15 @@ ul {
 .photo-laso {
   margin: 10px 0px 10px 0px !important;
 }
+
+.photo-project {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.photo-project:hover {
+  transform: scale(1.1);
+}
 @media (max-width: 768px) {
   .photo-me {
     width: 50%;
