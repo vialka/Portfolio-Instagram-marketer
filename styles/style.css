@@ -204,9 +204,12 @@ ul {
 }
 .video {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex: 1;
 }
-
+.new {
+  padding: 5px 5px;
+}
 @media (max-width: 600px) {
   .photo-me {
     width: 50%;
