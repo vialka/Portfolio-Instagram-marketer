@@ -202,10 +202,16 @@ ul {
 .link-article:hover {
   color: rgb(80, 167, 194);
 }
-@media (max-width: 768px) {
+.video {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
   .photo-me {
     width: 50%;
   }
+
   .project-photo {
     display: block !important;
     margin: 0 auto !important;
@@ -236,13 +242,6 @@ ul {
     font-family: "Combo", cursive;
     font-size: 20px;
   }
-  .button-52 {
-    padding: 13px 50px 13px;
-  }
-
-  .second button {
-    margin: 10px 10px;
-  }
 
   .contact-my h2 {
     font-size: 20px;
@@ -251,5 +250,13 @@ ul {
   .link-article {
     font-size: smaller;
     text-align: center;
+  }
+}
+@media (max-width: 575px) {
+  .second button {
+    margin: 10px 10px;
+  }
+  .button-52 {
+    padding: 13px 50px 13px;
   }
 }
