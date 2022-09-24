@@ -208,13 +208,16 @@ ul {
   flex: 1;
 }
 .new {
-  padding: 5px 5px;
+  padding: 10px 10px;
 }
 @media (max-width: 600px) {
   .photo-me {
     width: 50%;
   }
 
+  .new {
+    padding: 10px 50px;
+  }
   .project-photo {
     display: block !important;
     margin: 0 auto !important;
