@@ -98,8 +98,10 @@ ul {
   height: auto;
 }
 .photo-me-about {
-  width: 75%;
+  width: 100%;
   border-radius: 15%;
+}
+.photo-book {
 }
 .project-photo {
   margin-left: 100px;
